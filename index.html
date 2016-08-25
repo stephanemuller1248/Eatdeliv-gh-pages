@@ -7,7 +7,7 @@
 
 		<title>DeliverEat - Livraise de plat à domicile</title>
 
-		<link href="https://fonts.googleapis.com/css?family=Arvo|Roboto:300,400,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -34,7 +34,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><span>DeliverEat</span></a>
+        <a class="navbar-brand" href="#"><stong>DeliverEat</strong></a>
       </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,12 +42,12 @@
       <ul class="nav navbar-nav">
         <li><a href="#" style="padding-left: 20px">Menu du jour</a></li>
         <li><a href="#">Comment ça marche</a></li>
-        <li><a href="#zonelivraison s s">Zone de livraison</a></li>
-        <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Zone de livraison</a></li>
+        <li><i class="fa fa-map-marker" aria-hidden="true" ></i></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Nos produits</a></li>
-        <li><a href="#compteentreprise" style="padding-right: 20px; border-right: 1px solid black">Entreprise</a></li>
+        <li><a href="#" style="padding-right: 20px; border-right: 1px solid black">Entreprise</a></li>
         <li><a href="#">Connexion</a></li>
         <li><a href="#" style="padding-right: 20px">Inscription</a></li>
       </ul>
@@ -58,7 +58,7 @@
 
   <div id="test">
     <h1>Un chef à la maison</h1>
-    <h3>Des plats frais cusinez avec des produits locaux, livrés en 30min</h3>
+    <h3>Des plats frais, cuisinés avec des produits locaux, livrés en 30min</h3>
     <a class="btn btn-default monbouton" href="#" role="button">Menu du jour</a>
   </div>  
 
@@ -131,46 +131,54 @@
       <input type="text" class="form-control" placeholder="Saisir une adresse de livraison" style="border: 1px solid green">
     </div>
 
-    <div class="menudujour text-center">
-        <h2>Menu du jour<h3>
-        <h3>Entrée</h3>
-      <div class="entree">
-          <img src="images/soupe_lentilles.jpg" alt="lentilles" width="242" heigt="200">
-          <div class="caption">
-            <h4>SOUPE DE LENTILLES</h3>
-            <p>...</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
-          </div>
-      </div>
+    <h2>Menu du jour</h2>
+
+    <div class="spacer"></div>
+
+    <div class="container">
       <div class="rows">
-        <h3 style="text-align:center">Plats<h3>
-        <div class="col-md-6">
-            <div class="plats">
-              <img src="images/saumon_ratatouille.jpg" alt="..." width="242" heigt="200">
-              <div class="caption">
-              <h4>SAUMON MI-CUIT</h3>
-              <p>...</p>
-              <p><a href="#" class="btn btn-primary" role="button">Ajouter au paier</a></p>
-              </div>
-            </div>
-        </div> 
-        <div class="col-md-6">
-          <div class="plats">
-            <img src="images/moussak.jpg" alt="..." width="242" heigt="200">
+        <div class="col-md-4">
+          <h3 style="text-align:center">Entrée</h3>
+          <div class="entree">
+            <img src="images/soupe_lentilles.jpg" alt="lentilles" style= "width:360px; height:240px">
             <div class="caption">
-            <h4>MOUSSAKA</h3>
-            <p>...</p>
+              <h4>SOUPE DE LENTILLES AUX AGRUMES</h4>
+              <p>Soupe d'hiver aux lentilles verte, parfumé aux pamplemousse et herbes aromatiques</p>
+              <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
+            </div>
+          </div>
+        </div>  
+        <div class="col-md-4">
+          <h3 style="text-align:center">Plats</h3>
+          <div class="plats">
+            <img src="images/saumon_ratatouille.jpg" alt="..." style= "width:360px; height:240px">
+            <div class="caption">
+            <h4>SAUMON MI-CUIT AVEC UNE RATATOUILLE ANCESTRALE</h4>
+            <p>Un sauman cuit basse température accompagnés de la ratatouille de nos grand composé avec les légumes du jardin.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Ajouter au paier</a></p>
+            </div>
+          </div>
+        </div> 
+        <div class="col-md-4">
+          <h3 style="text-align:center">Vege</h3>
+          <div class="plats">
+            <img src="images/moussak.jpg" alt="..." style= "width:360px; height:240px">
+            <div class="caption">
+            <h4>MOUSSAKA GREQUE FAIT MAISON</h4>
+            <p>Plat oriental, diffusé par les cuisines grecque et roumaine notamment, cuit au four et composé d'aubergines, de hachis de mouton, de tomates, le tout condimenté et épicé</p>
             <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
             </div>
           </div> 
         </div>         
       </div>
-        <h3>Dessert</h3>
+    </div>
+        <br>
         <div class="dessert">
-          <img src="images/soupe_lentilles.jpg" alt="..." width="242" heigt="200">
+          <h3>Dessert</h3>
+          <img src="images/soupe_lentilles.jpg" alt="..." style= "width:360px; height:240px">
           <div class="caption">
-            <h4>PANNA COTTA</h4>
-            <p>...</p>
+            <h4 style="">PANNA COTTA</h4>
+            <p>La panna cotta est fabriquée à partir de crème, de lait et de sucre auxquels on ajoute de la gélatine pour obtenir une consistance ferme.  Ce dessert est généralement servi avec un coulis ou une  de fruits.</p>
             <p><a href="#" class="btn btn-primary" role="button">Ajouter au panier</a></p>
           </div>
         </div>
@@ -179,7 +187,7 @@
    <div class="spacer"></div>
 
   <div class="commentcamarche">
-    <div class="container text-center">
+    <div class="container">
       <h2>Comment ça marche</h2>
       <br>
       <br>
@@ -235,7 +243,8 @@
 
   <div class="compteentreprise text-center">
     <h2>Compte Entreprise</h2>
-    <!-- Button trigger modal -->
+    <!-- Button trigger modal <-->
+    <br>
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#companylogin">
       Forumlaire d'inscription
     </button>
@@ -276,21 +285,46 @@
   </div>
 
       <div id="footer">
-        <div class="row">
-          <div class="col-sm-6">
-      			 <h3>Suivez-nous</h3>
-      			 <ul class="list-inline">
-      				<li><a href="wwww.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 22px;"></i><a></li>
-      				<li><a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 22px;"></i></a></li>
-  			     </ul>
-          </div>
-          <div class="col-sm-6">
-            <p style ="text-align: right">Site crée par © Stephane</p>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h5>CONTACTER-NOUS</h5>
+              <p>hello@devlivereat.ch</p>
+              <p>+41 79 255 07 68</p>
+            </div>
+            <div class="col-md-4">
+        			 <h5>SUIVEZ-NOUS</h5>
+        			 <ul class="list-inline">
+        				<li><a href="wwww.facebook.com"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 22px;"></i><a></li>
+        				<li><a href="www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 22px;"></i></a></li>
+    			     </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>EN SAVOIR PLUS</h5>
+              <p>Mention légale</p>
+              <p>CGV</p>
+            </div>
           </div>
         </div>
       </div>
 		
-
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 		    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
