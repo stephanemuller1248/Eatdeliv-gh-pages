@@ -40,15 +40,15 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#" style="padding-left: 20px">Menu du jour</a></li>
-        <li><a href="#myModal" data-toggle="modal" data-target="#myModal">Comment ça marche</a></li>
+        <li><a href="#" style="padding-left: 20px; border-right: 1px dashed grey">Menu du jour</a></li>
+        <li><a href="#myModal" data-toggle="modal" data-target="#myModal" stye="padding-left: 20px; border-right: 1px dashed grey;">Comment ça marche</a></li>
         <li><a href="#">Zone de livraison</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Nos produits</a></li>
-        <li><a href="#" style="padding-right: 20px; border-right: 1px solid black">Entreprise</a></li>
-        <li><a href="#">Connexion</a></li>
-        <li><a href="#" style="padding-right: 20px">Inscription</a></li>
+        <li><a href="#" style="padding-right: 20px; border-right: 1px dashed grey">Nos produits</a></li>
+        <li><a href="#" style="padding-right: 20px; border-right: 1px dashed grey">Entreprise</a></li>
+        <li><a href="#" style="padding-right: 20px; border-right: 1px dashed grey">Connexion</a></li>
+        <li><a href="#" style="padding-right: 20px;">Inscription</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -63,7 +63,7 @@
       <!-- Début barre latérale -->  
        <div style="border-bottom:1px solid; #ccc; width:100%; background-color: rgb(248, 248, 248);">
           <div class="barre">
-              <div style="display: flex;justify-content: space-between;white-space: nowrap; padding-top:2px; padding-bottom:2px" class="hidden-xs">
+              <div style="display: flex;justify-content: space-between;white-space: nowrap; padding-top:4px; padding-bottom:4px" class="hidden-xs">
                   <div>
                       <div class="feature feature-2 filled text-left" style="height:40px;">
                           <div style="height:40px; width:40px; float:left;">
@@ -205,7 +205,7 @@
       <br>
       <br>
 			<div id="teaser">
-				<div class="row">
+				<div class="row text-center">
 					<div class="col-sm-6 col-md-3 modif">
 						<img src="images/dishes.png" alt"DeliverEat-log" width="100px" height="100px" class="circle">
 						<p>Choissisez parmis une entrée, deux plats et un dessert.
@@ -233,6 +233,7 @@
 
   <div class="zonelivraison text-center">
     <h2>Zone de livraison</h2>
+    <div class="spacer"></div>
     <div id="map" style="width: 60%; height: 400px;"></div>
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
       <script type="text/javascript">
@@ -258,10 +259,9 @@
     <h2>Compte Entreprise</h2>
     <!-- Button trigger modal <-->
     <br>
-    <p>Nous vous contacterons sous 15 minutes
-    pour valider votre compte professionnel et intégrer
-    votre entreprise dans notre parcours de livraison.
-    </p>
+    <p>Nous vous contacterons sous 15 minutes</p>
+    <p>pour valider votre compte professionnel et intégrer</p>
+    <p>votre entreprise dans notre parcours de livraison.</p>
     <br> 
     <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#companylogin">
       Forumlaire d'inscription
@@ -330,8 +330,8 @@
           <div class="row">
             <div class="col-md-4">
               <h5>CONTACTER-NOUS</h5>
-              <p>hello@devlivereat.ch</p>
-              <p>+41 79 255 07 68</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i>  hello@devlivereat.ch</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i>  +41 79 255 07 68</p>
             </div>
             <div class="col-md-4">
         			 <h5>SUIVEZ-NOUS</h5>
