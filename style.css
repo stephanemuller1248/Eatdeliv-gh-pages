@@ -23,7 +23,7 @@ body{
 }
 
 
-#test {
+#titre {
 	
 	background-image: url(images/back.jpg);
 	background-repeat: no-repeat;
@@ -38,7 +38,7 @@ body{
 	text-shadow; 1px 1px 1px rgba(0, 0, 0, 0.5)
  }	
 
-#test h1{
+#titre h1 {
 
 	font-size: 56px;
 	line-height: 64px;
@@ -47,15 +47,18 @@ body{
 
 }
 
-#test h3{
+#titre h3 {
+
 	font-size: 28px;
 	margin-bottom: 1em;
+	font-weight: 300;
 	
 }
 
 .btn {
 
-	background-color: green;
+	background-color: rgb(79, 182, 129);
+	color: white;
 }
 
 .barre {
@@ -68,8 +71,6 @@ body{
 #adresse{
 
 	padding-top: 30px;
-	padding-left: 400px;
-	padding-right: 400px;
 	padding-bottom: 20px;
 
 }
@@ -88,7 +89,10 @@ h3 {
 
 	text-shadow; 2px 2px 2px rgba(0, 0, 0, 0.5)
 	font-family: "Roboto", sans-serif;
-	font-weight: 300;
+	font-size: 19px;
+	line-height: 26px;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 h4 {
@@ -97,7 +101,7 @@ h4 {
 	line-height: 24px;
 	letter-spacing: 1px;
 	font-family: "Open Sans", sans-serif;
-	font-weight: 700
+	font-weight: 700;
 }
 
 
@@ -124,6 +128,7 @@ h4 {
 	letter-spacing: 2px;
 	margin-bottom: 70px;
 
+
 }
 
 #teaser img {
@@ -132,6 +137,7 @@ h4 {
 	border: 1px solid black;
 	border-radius: 50%;
 	padding: 5px;
+
 
 }
 
@@ -142,11 +148,11 @@ h4 {
 
 .dessert {
 
-
 	text-align: center;
-	padding-left: 600px;
-	padding-right: 600px;
+
+
 }
+
 
 .zonelivraison {
 
