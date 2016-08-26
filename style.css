@@ -53,15 +53,16 @@ body{
 	
 }
 
-.monbouton {
-	background-color: rgb(223, 240, 216);
+.btn {
+
+	background-color: green;
 }
 
 .barre {
 	padding-left: 100px;
 	padding-right: 100px;
 	letter-spacing: 1px;
-	background-color: rgb(250, 252, 250);
+	background-color: white;
 }
 
 #adresse{
@@ -100,9 +101,16 @@ h4 {
 }
 
 
+.menu {
+
+	text-align: justify;
+}
 
 .commentcamarche {
+
 	background-color: white;
+	padding-top: 70px;
+	padding-bottom: 80px;
 }
 
 
@@ -119,6 +127,7 @@ h4 {
 }
 
 #teaser img {
+
 	margin-bottom: 1em;
 	border: 1px solid black;
 	border-radius: 50%;
@@ -126,35 +135,40 @@ h4 {
 
 }
 
-.dessert {
+.menu {
 
-	margin: 0 auto;
-	text-align: center;
-	padding-left: 530px;
-	padding-right: 530px;
+	padding-bottom: 80px;
 }
 
-.zonedelivraison {
+.dessert {
 
-	padding-top: 30px;
+
+	text-align: center;
+	padding-left: 600px;
+	padding-right: 600px;
+}
+
+.zonelivraison {
+
+	padding-top: 70px;
+	padding-bottom: 80px;
 }
 
 #map {
 
-	padding-top: 50px;
 	margin: 0 auto;
 }
 
 .compteentreprise {
 
 	background-color: white;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 70px;
+	padding-bottom: 80px;
 }
 
 .spacer {
 
-	height: 3em;
+	height: 4em;
 
 }
 
@@ -162,15 +176,17 @@ h5 {
 
 	font-size: 16px;
 	line-height: 22px;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
 
 }
+
+
 #footer {
 
-	text-align: center;
-	background-color: black;
+	background-color: rgb(38, 50, 56);
 	color: white;
 	font-weight: 300;
-	padding-top: 80px;
+	padding-top: 70px;
+	padding-bottom: 80px;
 
 }
