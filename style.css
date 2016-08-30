@@ -10,6 +10,7 @@ body{
 	font-family: "Roboto";
 	font-weight: 400;
 	font-size: 16px;
+	border-bottom: 1px solid grey;
 
 }
 
@@ -117,7 +118,7 @@ h4 {
 }
 
 
-.menu {
+#menu {
 
 	text-align: justify;
 }
@@ -127,7 +128,7 @@ h4 {
 	margin-bottom: 40px
 }
 
-.commentcamarche {
+#commentcamarche {
 
 	background-color: white;
 	padding-top: 50px;
@@ -138,8 +139,6 @@ h4 {
 
 #teaser {
 
-	padding-left: 50px;
-	padding-right: 50px;
 	letter-spacing: 1px;
 	font-size: 16px;
 
@@ -153,7 +152,7 @@ h4 {
 	padding: 5px;
 }
 
-.menu {
+#menu {
 
 	padding-bottom: 80px;
 }
@@ -177,14 +176,14 @@ h4 {
 	margin: 0 auto;
 }
 
-.compteentreprise {
+#compteentreprise {
 
 	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
  
-.compteentreprise p {
+#compteentreprise p {
 
 	font-size: 21px;
 	line-height: 21px;
