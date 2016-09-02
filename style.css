@@ -1,46 +1,53 @@
 body{
 	background-image: url(images/white_wall_hash.png);
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
 
-.haut {
-
-	background-color: rgba(250, 252, 250, 0.9);
-	font-family: "Roboto";
-	font-weight: 400;
-	font-size: 16px;
-	border-bottom: 1px solid grey;
+.navbar {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
 
 }
 
-.nav {
-
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-
-.navbar-brand {
-
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin: auto;
-    letter-spacing: 4px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+.navbar-brand a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 5px;
 }
 
 
-#titre {
-	
+.nav.navbar-nav.navbar-right li a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.navbar-nav > li > a.btn {
+  line-height: 40px;
+  padding: 0 10px;
+  border-radius: 2px;
+  margin-top: 4px;
+  font-weight: bold;
+  background-color: rgb(79, 182, 129);
+  color: white;
+}
+
+.navbar-nav > li > a.btn:hover {
+  background-color: blue;
+}
+
+#banner {
 	background-image: url(images/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 1px;
 	height: 450px;
 	font-weight: 300;
@@ -48,10 +55,9 @@ body{
 	text-align: center;
 	padding-top: 150px;
 	text-shadow; 1px 1px 1px rgba(0, 0, 0, 0.5)
- }	
+ }
 
-#titre h1 {
-
+#banner h1 {
 	font-size: 56px;
 	line-height: 64px;
 	font-weight: 300
@@ -59,49 +65,40 @@ body{
 
 }
 
-#titre h3 {
-
+#banner h3 {
 	font-size: 28px;
 	margin-bottom: 1em;
 	font-weight: 300;
-	
+
 }
 
-.btn {
-
-	background-color: rgb(79, 182, 129);
-	color: white;
-}
-
-.barre {
+#barre {
 	padding-left: 100px;
 	padding-right: 100px;
 	letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
 	background-color: white;
 	font-size: 14px;
+  border-bottom:1px solid #ccc;
 }
 
 #adresse{
-
 	padding-top: 30px;
 	padding-bottom: 20px;
-
 }
 
 h2 {
-
 	font-size: 40px;
 	letter-spacing: 1px;
 	text-shadow; 2px 2px 2px rgba(0, 0, 0, 0.5)
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	text-align: center;
 }
 
 h3 {
-
 	text-shadow; 2px 2px 2px rgba(0, 0, 0, 0.5)
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 19px;
 	line-height: 26px;
 	font-weight: 400;
@@ -109,7 +106,6 @@ h3 {
 }
 
 h4 {
-
 	font-size: 13px;
 	line-height: 24px;
 	letter-spacing: 1px;
@@ -117,99 +113,83 @@ h4 {
 	font-weight: 700;
 }
 
+h5 {
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 20px;
+
+}
 
 #menu {
-
 	text-align: justify;
+  padding-bottom: 80px;
 }
 
-.foodname {
+.dessert {
 
-	margin-bottom: 40px
+  margin: 0 auto;
+  width: 360px;
 }
 
-#commentcamarche {
+
+#howitworks{
 
 	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
 
-
-
 #teaser {
-
 	letter-spacing: 1px;
 	font-size: 16px;
-
 }
 
 #teaser img {
-
 	margin-bottom: 1.2em;
 	border: 1.5px solid rgb(79, 182, 129);
 	border-radius: 50%;
 	padding: 5px;
 }
 
-#menu {
-
-	padding-bottom: 80px;
-}
-
-.dessert {
-
-	margin: 0 auto;
-	width: 360px;
-}
-
-
-.zonelivraison {
-
-
+#zonelivraison {
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
 
 #map {
-
 	margin: 0 auto;
 }
 
 #compteentreprise {
-
 	background-color: white;
 	padding-top: 50px;
 	padding-bottom: 80px;
 }
- 
-#compteentreprise p {
 
-	font-size: 21px;
+#compteentreprise p {
+  font-size: 21px;
 	line-height: 21px;
 }
 
 .spacer {
-
 	height: 4em;
-
 }
 
-h5 {
-
-	font-size: 16px;
-	line-height: 22px;
-	padding-bottom: 20px;
-
+.btn {
+  background-color: rgb(79, 182, 129);
+  color: white;
+  font-weight: 700;
 }
 
+.btn:hover{
+  background-color: rgb(0, 71, 13);
+  color: white;
+}
 
 #footer {
-
 	background-color: rgb(38, 50, 56);
 	color: white;
 	font-weight: 300;
 	padding-top: 70px;
 	padding-bottom: 80px;
-
 }
