@@ -139,12 +139,12 @@ h5 {
 	padding-bottom: 80px;
 }
 
-#teaser {
+.teaser {
 	letter-spacing: 1px;
 	font-size: 16px;
 }
 
-#teaser img {
+.teaser img {
 	margin-bottom: 1.2em;
 	border: 1.5px solid rgb(79, 182, 129);
 	border-radius: 50%;
